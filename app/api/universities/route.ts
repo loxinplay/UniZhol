@@ -1,6 +1,6 @@
 // app/api/universities/route.ts
 
-import { loadUniversitiesFromCSV } from '@/lib/data';
+import { loadUniversitiesFromCSV } from '@/app/data';
 import { NextResponse } from 'next/server';
 
 export async function GET() {
