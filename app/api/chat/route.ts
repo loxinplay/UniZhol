@@ -1,7 +1,7 @@
 // app/api/chat/route.ts
 
 import { Mistral } from '@mistralai/mistralai';
-import { loadUniversitiesFromCSV, University } from '@/lib/data'; // ИСПОЛЬЗУЕМ ФУНКЦИЮ ДЛЯ ЧТЕНИЯ CSV
+import { loadUniversitiesFromCSV, University } from '@/app/data'; // ИСПОЛЬЗУЕМ ФУНКЦИЮ ДЛЯ ЧТЕНИЯ CSV
 import { NextResponse } from 'next/server';
 
 const apiKey = process.env.MISTRAL_API_KEY;
