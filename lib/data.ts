@@ -27,7 +27,7 @@ const tourMapping: { [key: string]: string } = {
 };
 
 // Путь к вашему CSV файлу. Файл должен быть в корне проекта!
-const CSV_FILE_PATH = path.join(process.cwd(), 'kz_universities_top25_expanded (1).csv');
+const CSV_FILE_PATH = path.join(process.cwd(), 'unis.csv');
 
 export type University = {
     id: number;
